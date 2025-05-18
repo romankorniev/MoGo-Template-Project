@@ -1,0 +1,58 @@
+.bckgn3 {
+    background: 
+        linear-gradient(rgba(236, 234, 234, 0.753), rgba(255, 255, 255, 0.884)), 
+        url(../img/mountain.png);
+    background-size: cover;
+    height: 830px;
+    padding: 0.5px;
+}
+
+.feedback {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.client {
+    width: 500px;
+    margin: 40px 20px;
+}
+
+.client hr {
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+  display: inline-block;
+}
+
+.client h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.client h5 {
+    font-size: 15px;
+    line-height: 24px;
+    color: #333333;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Roboto";
+}
+
+.client p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.client img {
+    float: left;
+    display: block;
+    margin: 20px;
+}

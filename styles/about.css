@@ -1,0 +1,58 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 60px;
+    margin-top: 90px;
+}
+
+.about h4{
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Kaushan Script";
+    text-align: center;
+}
+
+.about h5 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.about hr {
+    width: 60px;
+    height: 2px;
+    background-color: #f38181;
+    margin: 30px 0;
+}
+
+.about p {
+    width: 960px;
+    height: 130px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.img_about {
+    width: 380px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.about img:nth-child(2) {
+    margin: 0 15px;
+}
+
+

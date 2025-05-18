@@ -1,0 +1,30 @@
+@import url(./styles/header.css);
+@import url(./styles/about.css);
+@import url(./styles/stats.css);
+@import url(./styles/services.css);
+@import url(./styles/featured.css);
+@import url(./styles/about_workers.css);
+@import url(./styles/photos.css);
+@import url(./styles/feedback.css);
+@import url(./styles/blog.css);
+@import url(./styles/map.css);
+@import url(./styles/footer.css);
+
+ul,ol,h1,h3,h4,h5,h6,p,body{
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 10px;
+  height: 100%;
+}
+

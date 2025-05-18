@@ -1,0 +1,30 @@
+.map {
+    background-image: url(../img/Map.png);
+    background-size: cover;
+    height: 200px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info p {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #f38181;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin: 20px;
+}
+
+.info hr {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+
+.map2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
