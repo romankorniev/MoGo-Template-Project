@@ -86,7 +86,10 @@ a{
     background-color: transparent; 
     text-decoration: none;     
     cursor: pointer;
+    transition: 0.3s;
 }
+
+
 
 .hr2 {
     display: flex;

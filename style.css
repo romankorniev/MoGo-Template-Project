@@ -9,6 +9,7 @@
 @import url(./styles/blog.css);
 @import url(./styles/map.css);
 @import url(./styles/footer.css);
+@import url(./styles/animations_hovers.css);
 
 ul,ol,h1,h3,h4,h5,h6,p,body{
   margin: 0;

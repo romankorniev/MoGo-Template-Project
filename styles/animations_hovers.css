@@ -1,0 +1,46 @@
+.subscribe_button:hover {
+    border: 1px solid #95E1D3;
+    background-color: white;
+    color: #95E1D3;
+}
+
+.btn:hover {
+    color: #fce38a;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 60px;
+    padding: 20px 8px;
+}
+
+.img_e:hover {
+  transform: translate(-10px, -10px);
+  transition: 0.3s ease;
+}
+
+.social img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  padding: 10px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease;
+  background-color: #fce38a;
+  opacity: 0;
+}
+
+.img_wrapper {
+    position: relative;
+}
+
+.img_e:hover .social {
+  opacity: 1;
+}
